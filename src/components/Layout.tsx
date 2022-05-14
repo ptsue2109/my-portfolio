@@ -3,6 +3,7 @@ import "./index.scss";
 import { Outlet } from "react-router-dom";
 import Header from "./Header";
 import Footer from "./Footer";
+import { Divider } from "antd";
 type Props = {};
 
 const Layout = (props: Props) => {
@@ -12,8 +13,11 @@ const Layout = (props: Props) => {
       <div className="content container">
         <Outlet />
       </div>
-      
+
+      {/* <div className="footer"> */}
+      {/* <Divider /> */}
       {/* <Footer /> */}
+      {/* </div> */}
     </div>
   );
 };

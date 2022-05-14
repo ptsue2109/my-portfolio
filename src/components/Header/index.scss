@@ -23,30 +23,21 @@
       gap: 40px;
       justify-content: flex-end;
       svg {
-        color: rgb(26, 23, 23);
+        font-size: 25px;
+        z-index: 9999;
       }
       a {
-        font-size: 20px;
-
-        :first-child {
-          opacity: 1;
-          :hover {
-            content: "MY GIT";
-            opacity: 0.8;
-          }
-        }
-        :nth-child(2) {
-          opacity: 1;
-          :hover {
-            content: "My Face";
-            opacity: 0.8;
-          }
-        }
-        :last-child {
-          opacity: 1;
-          :hover {
-            content: "My Mail";
-            opacity: 0.8;
+        padding: 3px;
+        border: 1px solid transparent;
+        &:hover {
+          background-color: #ddd;
+          opacity: 0.5;
+          z-index: 1;
+          transition: all 0.5s ease-in-out;
+          border-radius: 5px;
+          &:hover svg {
+            color: rgb(243, 67, 9);
+            z-index: 9999;
           }
         }
       }

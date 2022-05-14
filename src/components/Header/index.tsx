@@ -11,7 +11,7 @@ const Header = (props: Props) => {
       <div className="header__top container">
         <div className="header__top-item ">
           <div className="header__top-item--link">
-            <Link to="/work"> works</Link>
+            <Link to="/work"> My Project</Link>
           </div>
           <div className="header__top-item--link">
             <Link to="/contact"> Contact</Link>
@@ -19,13 +19,27 @@ const Header = (props: Props) => {
         </div>
         <div className="header__top-logo">
           <div className="header__top-item--logo">
-            <Link to="/"><img src="https://res.cloudinary.com/asm-ph13269/image/upload/v1651872832/logo-s_ob0oyg.png" alt="" /></Link>
+            <Link to="/">
+              <img
+                src="https://res.cloudinary.com/asm-ph13269/image/upload/v1651872832/logo-s_ob0oyg.png"
+                alt=""
+              />
+            </Link>
           </div>
         </div>
         <div className="header__top-social">
-            <a href="https://github.com/ptsue2109" target={"_blank"}  ><FaGithub /> </a>
-            <a href="https://www.facebook.com/phuongthao.trinh.sue" target={"_blank"} ><FaFacebook /> </a>
-            <a href="/" target={"_blank"}  ><FaGoogle /> </a>
+          <a href="https://github.com/ptsue2109" target={"_blank"}>
+            <FaGithub />
+          </a>
+          <a
+            href="https://www.facebook.com/phuongthao.trinh.sue"
+            target={"_blank"}
+          >
+            <FaFacebook />
+          </a>
+          <a href="/" target={"_blank"}>
+            <FaGoogle />
+          </a>
         </div>
       </div>
     </div>
