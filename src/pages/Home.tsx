@@ -1,11 +1,11 @@
-import React from 'react'
+import React from "react";
 
-type Props = {}
+type Props = {};
 
 const Home = (props: Props) => {
-  return (
-    <div> HOME PAGe</div>
-  )
-}
+ return <>
+  <p>HELLO</p>
+ </>
+};
 
-export default Home
+export default Home;

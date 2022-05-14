@@ -1,0 +1,48 @@
+a {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  font-size: 14px;
+  &:hover,
+  &:active,
+  &:focus {
+    color: red;
+    transition: all 0.3s ease-in-out;
+  }
+}
+html {
+  -webkit-tap-highlight-color: transparent;
+  font-family: sans-serif;
+  line-height: 1.15;
+}
+.header {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 1040;
+  background-color: rgb(209, 209, 208);
+}
+.content {
+  position: relative;
+  top: 90px;
+  left: 0;
+}
+.err_page {
+  display: grid;
+  gap: 10px;
+  justify-content: center;
+  &-img {
+    img {
+      width: 100%;
+      height: 240px;
+      margin-bottom: 20px;
+    }
+  }
+  &-text {
+    text-align: center;
+    p {
+      color: #ccc;
+    }
+  }
+}

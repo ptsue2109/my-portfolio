@@ -1,0 +1,55 @@
+.header {
+  &__top {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 10px 0px;
+    &-item {
+      display: flex;
+      gap: 15px;
+      &--link {
+        font-weight: 600;
+      }
+    }
+    &-logo {
+      text-align: center;
+
+      img {
+        width: 34px;
+      }
+    }
+    &-social {
+      display: flex;
+      gap: 40px;
+      justify-content: flex-end;
+      svg {
+        color: rgb(26, 23, 23);
+      }
+      a {
+        font-size: 20px;
+
+        :first-child {
+          opacity: 1;
+          :hover {
+            content: "MY GIT";
+            opacity: 0.8;
+          }
+        }
+        :nth-child(2) {
+          opacity: 1;
+          :hover {
+            content: "My Face";
+            opacity: 0.8;
+          }
+        }
+        :last-child {
+          opacity: 1;
+          :hover {
+            content: "My Mail";
+            opacity: 0.8;
+          }
+        }
+      }
+    }
+  }
+}
