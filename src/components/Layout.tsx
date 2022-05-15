@@ -14,10 +14,10 @@ const Layout = (props: Props) => {
         <Outlet />
       </div>
 
-      {/* <div className="footer"> */}
+      <div className="footer">
       {/* <Divider /> */}
-      {/* <Footer /> */}
-      {/* </div> */}
+      <Footer />
+      </div>
     </div>
   );
 };

@@ -38,6 +38,7 @@ const InfoRightSide = (props: Props) => {
             <p>
               FPT Polytechnic Colleges <br />
               (level 6/7) <br />
+              Status: Studing... <br />
               Major: Web Design
             </p>
           </div>

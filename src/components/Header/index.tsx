@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "./index.scss";
 import { FaFacebook, FaGithub, FaGoogle } from "react-icons/fa";
 
@@ -11,20 +10,23 @@ const Header = (props: Props) => {
       <div className="header__top container">
         <div className="header__top-item ">
           <div className="header__top-item--link">
-            <Link to="/work"> My Project</Link>
+            <a href="#projects"> My Project</a>
           </div>
           <div className="header__top-item--link">
-            <Link to="/contact"> Contact</Link>
+            <a href="#contact"> Contact</a>
+          </div>
+          <div className="header__top-item--link">
+            <a href="#skills"> My Skills</a>
           </div>
         </div>
         <div className="header__top-logo">
           <div className="header__top-item--logo">
-            <Link to="/">
+            <a href="#">
               <img
                 src="https://res.cloudinary.com/asm-ph13269/image/upload/v1651872832/logo-s_ob0oyg.png"
                 alt=""
               />
-            </Link>
+            </a>
           </div>
         </div>
         <div className="header__top-social">

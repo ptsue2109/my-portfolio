@@ -5,6 +5,8 @@ import Sliders from "../components/Sliders/Sliders";
 import InfoLeftSide from "../components/Info/InfoLeftSide";
 import InfoRightSide from './../components/Info/InfoRightSide';
 import Skill from "../components/Skills/Skill";
+import Projects from "../components/Projects/Projects";
+import Contact from "../components/Contacts/Contact";
 type Props = {};
 
 const Home = (props: Props) => {
@@ -24,20 +26,28 @@ const Home = (props: Props) => {
         <title>HOME</title>
       </Helmet>
       <div className="home">
-        <div className="home-top">
+        <div className="home-top" id="animation">
           <h1>Phuongthao Trinh</h1>
           <h1>frontend developer </h1>
           <h1>based in Vietnam</h1>
         </div>
 
-        <div className="home-content">
+        <div className="home-content" id="info">
           <InfoLeftSide />
           <Sliders />
           <InfoRightSide />
         </div>
         <hr />
-        <div className="home-skill">
+        <div className="home-skill" id="skills">
           <Skill />
+        </div>
+    
+        <div className="home-projects" id="projects">
+          <Projects />
+        </div>
+        <hr />
+        <div className="home-contacts" id="contact">
+            <Contact />
         </div>
       </div>
     </>

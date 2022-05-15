@@ -26,7 +26,7 @@ const Sliders = (props: Props) => {
         modules={[EffectCards]}
         className="mySwiper"
       >
-         {image &&
+        {image &&
           image.map((item: any) => (
             <a href="" key={item.id}>
               <SwiperSlide><img src={item.src} alt="" /></SwiperSlide>
