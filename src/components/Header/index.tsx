@@ -39,7 +39,7 @@ const Header = (props: Props) => {
           >
             <FaFacebook />
           </a>
-          <a href="/" target={"_blank"}>
+          <a href="/my-cv" target={"_blank"}>
             <FaGoogle />
           </a>
         </div>

@@ -18,7 +18,7 @@ const InfoRightSide = (props: Props) => {
       <div className="home-content-info__skill mt-5 pt-3">
         <div className="home-content-info--text">
           <div className="home-content-info--text__title">
-            <span>skill</span>
+            <span>skills</span>
           </div>
           <div className="home-content-info--text__content">
             <p>
@@ -32,7 +32,7 @@ const InfoRightSide = (props: Props) => {
       <div className="home-content-info__skill">
         <div className="home-content-info--text">
           <div className="home-content-info--text__title">
-            <span>Educations</span>
+            <span>Education</span>
           </div>
           <div className="home-content-info--text__content">
             <p>

@@ -1,68 +1,114 @@
 {
-    "sliders": [
+  "sliders": [
+    {
+      "id": 1,
+      "src": "https://res.cloudinary.com/asm-ph13269/image/upload/v1651517541/ty6x4qhce1oezx8ko53u.jpg"
+    },
+    {
+      "id": 2,
+      "src": "https://res.cloudinary.com/asm-ph13269/image/upload/v1652575004/image_wdmx2v.jpg"
+    },
+    {
+      "id": 3,
+      "src": "https://res.cloudinary.com/asm-ph13269/image/upload/v1651517541/ty6x4qhce1oezx8ko53u.jpg"
+    }
+  ],
+  "skills": [
+    {
+      "id": 1,
+      "src": "https://i.pinimg.com/564x/f5/b9/91/f5b9918f76b778e799b6aa54c270061e.jpg",
+      "content": "react js"
+    },
+    {
+      "id": 2,
+      "src": "https://i.pinimg.com/564x/bf/e1/f2/bfe1f230ec0f4642eb6a3097835de129.jpg",
+      "content": "JS"
+    },
+    {
+      "id": 3,
+      "src": "https://i.pinimg.com/564x/1a/91/1a/1a911ab7388613151c6976c4380c00d4.jpg",
+      "content": "Ts"
+    },
+    {
+      "id": 4,
+      "src": "https://i.pinimg.com/564x/a2/1f/af/a21faffb83f9418b9a723829218103b5.jpg",
+      "content": "html5"
+    },
+    {
+      "id": 5,
+      "src": "https://i.pinimg.com/564x/e4/3e/4c/e43e4cd41ddffc21d2e6600dfca20306.jpg",
+      "content": "css"
+    },
+    {
+      "id": 6,
+      "src": "https://i.pinimg.com/564x/f8/db/e7/f8dbe7347f0af5e3a7f8d0faa73824a4.jpg",
+      "content": "scss"
+    },
+    {
+      "id": 7,
+      "src": "https://i.pinimg.com/564x/ef/ff/7d/efff7d5cb146fb3ca0f62b87bd641e4d.jpg",
+      "content": "github"
+    },
+    {
+      "id": 8,
+      "src": "https://i.pinimg.com/564x/f8/ee/69/f8ee696f018c1a4ad6b9972b85fc6b2e.jpg",
+      "content": "mysql"
+    },
+    {
+      "id": 9,
+      "src": "https://res.cloudinary.com/asm-ph13269/image/upload/v1651872832/logo4_sg0gg0.png",
+      "content": "angular"
+    },
+    {
+      "id": 10,
+      "src": "https://i.pinimg.com/564x/24/a6/63/24a663052e771d440fa6555894a93595.jpg",
+      "content": "mongodb"
+    },
+    {
+      "id": 11,
+      "src": "https://i.pinimg.com/564x/b2/29/a7/b229a71f0ccf43cf799cbb344ec77c44.jpg",
+      "content": "PHP"
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "Website bán đồ công nghệ",
+      "group": "true ",
+      "desc": "Công việc : Thiết kế database, lên ý tưởng, viết chức năng cùng các thành viên ",
+      "skillImg": [
         {
-            "id": 1,
-            "src": "https://res.cloudinary.com/asm-ph13269/image/upload/v1651517541/ty6x4qhce1oezx8ko53u.jpg"
+          "id": 11,
+          "src": "https://i.pinimg.com/564x/b2/29/a7/b229a71f0ccf43cf799cbb344ec77c44.jpg",
+          "content": "PHP"
         },
         {
-            "id": 2,
-            "src": "https://res.cloudinary.com/asm-ph13269/image/upload/v1652575004/image_wdmx2v.jpg"
+          "id": 8,
+          "src": "https://i.pinimg.com/564x/f8/ee/69/f8ee696f018c1a4ad6b9972b85fc6b2e.jpg",
+          "content": "mysql"
         },
         {
-            "id": 3,
-            "src": "https://res.cloudinary.com/asm-ph13269/image/upload/v1651517541/ty6x4qhce1oezx8ko53u.jpg"
+          "id": 7,
+          "src": "https://i.pinimg.com/564x/ef/ff/7d/efff7d5cb146fb3ca0f62b87bd641e4d.jpg",
+          "content": "github"
+        },
+        {
+          "id": 4,
+          "src": "https://i.pinimg.com/564x/a2/1f/af/a21faffb83f9418b9a723829218103b5.jpg",
+          "content": "html5"
+        },
+        {
+          "id": 5,
+          "src": "https://i.pinimg.com/564x/e4/3e/4c/e43e4cd41ddffc21d2e6600dfca20306.jpg",
+          "content": "css"
+        },
+        {
+          "id": 2,
+          "src": "https://i.pinimg.com/564x/bf/e1/f2/bfe1f230ec0f4642eb6a3097835de129.jpg",
+          "content": "JS"
         }
-    ],
-    "skills": [
-        {
-            "id": 1,
-            "src": "https://i.pinimg.com/564x/f5/b9/91/f5b9918f76b778e799b6aa54c270061e.jpg",
-            "content": "react js"
-        },
-        {
-            "id": 2,
-            "src": "https://i.pinimg.com/564x/bf/e1/f2/bfe1f230ec0f4642eb6a3097835de129.jpg",
-            "content": "JS"
-        },
-        {
-            "id": 3,
-            "src": "https://i.pinimg.com/564x/1a/91/1a/1a911ab7388613151c6976c4380c00d4.jpg",
-            "content": "Ts"
-        },
-        {
-            "id": 4,
-            "src": "https://i.pinimg.com/564x/a2/1f/af/a21faffb83f9418b9a723829218103b5.jpg",
-            "content": "html5"
-        },
-        {
-            "id": 5,
-            "src": "https://i.pinimg.com/564x/e4/3e/4c/e43e4cd41ddffc21d2e6600dfca20306.jpg",
-            "content": "css"
-        },
-        {
-            "id": 6,
-            "src": "https://i.pinimg.com/564x/f8/db/e7/f8dbe7347f0af5e3a7f8d0faa73824a4.jpg",
-            "content": "scss"
-        },
-        {
-            "id": 7,
-            "src": "https://i.pinimg.com/564x/ef/ff/7d/efff7d5cb146fb3ca0f62b87bd641e4d.jpg",
-            "content": "github"
-        },
-        {
-            "id": 8,
-            "src": "https://i.pinimg.com/564x/f8/ee/69/f8ee696f018c1a4ad6b9972b85fc6b2e.jpg",
-            "content": "mysql"
-        },
-        {
-            "id": 9,
-            "src": "https://res.cloudinary.com/asm-ph13269/image/upload/v1651872832/logo4_sg0gg0.png",
-            "content": "angular"
-        },
-        {
-            "id": 10,
-            "src": "https://i.pinimg.com/564x/24/a6/63/24a663052e771d440fa6555894a93595.jpg",
-            "content": "mongodb"
-        }
-    ]
+      ],
+      "githubLink": "https://github.com/duon97ran2/du-an-1-nhom-3"
+    }
+  ]
 }

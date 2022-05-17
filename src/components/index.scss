@@ -51,6 +51,13 @@ a {
   height: 160px;
   background-color: #ccc;
 }
+ul li{
+  text-decoration: none;
+  list-style: none;
+}
+.btn{
+  font-size: 10px;
+}
 .home {
   &-top {
     text-align: center;
